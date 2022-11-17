@@ -1,0 +1,17 @@
+ # Physical parameters
+
+ 30.     30.                    ! L,  H       : length and height of the domain (m)
+ 0.05                           ! U0          : characteristic parameter for the velocity (s^-1)
+ 2.e-5                          ! D           : diffusivity (m^2/s)
+ 0.      1.                     ! C0,C1       : initial concentrations in the domain 
+ 7.                             ! R1          : initial radius of polution (of concentration C1)
+ 0.      0.       0.      0.    ! Cl,Cr,Ct,Cb : concentration at the left,right,top,bottom
+ 1.e-2                          ! tf          : final time (s)
+
+ # Numerical parameters 
+
+ 15      15                     ! nx, ny      : number of cells in x- and y-direction
+ 50                             ! Nout        : number of intermediate unsaved time steps 
+ 1.0                            ! CFL         : Courant's number (advection)
+ 0.5                            ! R           : Fourier's number (diffusion)
+
